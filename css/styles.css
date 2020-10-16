@@ -1,0 +1,11 @@
+*{
+    color: yellow;
+    font-family: cursive;
+}
+body{
+    background-color: black;
+    color: yellow;
+}
+#navbar{
+    float: right;
+}
