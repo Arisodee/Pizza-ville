@@ -74,5 +74,29 @@ body {
 
   #order {
       margin-top: 30px;
-      text-align: center;
+      text-align: left;
+      width: 600px;
+      color:yellow;
+  }
+
+.contact-us {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-us img {
+    width: 50px;
+    height: 50px;
+}
+
+.saycheese img {
+    width: 43%;
+    float: right;
+    height: 416px;
+    margin-top: 104px;
+}
+
+#navbar a:hover {
+    background-color:black;
+    color: yellow;
   }
