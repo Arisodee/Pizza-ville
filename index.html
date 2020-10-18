@@ -46,12 +46,70 @@
       </div>
     </div>
 
+<!-- order section -->
+    <div class="saycheese">
+      <img src="images/saycheese.jpg" alt="">
+    </div>
     <div id="order">
-      <h4>Place your order below</h4>
-      <p>Get your favorite pizza in 30 minutes!</p>
-
+      <h3>PLACE YOUR ORDER</h3>
+      <form>
+        <div class="form-group">
+          <label for="availableflavors"></label>Please select the flavour:</label>
+          <select class="form-control" id="availableflavors">
+            <option value="chickenmushroom">Chicken Mushroom</option>
+            <option value="vegetarian">Vegetarian</option>
+            <option value="periperi">Peri-Peri Chicken</option>
+            <option value="bbq">BBQ Steak</option>
+            <option value="boerewors">Boerewors</option>
+            <option value="hawaiian">Hawaiian</option>
+            <option value="Roastfeta">Roast Veg Feta</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="size"></label>Select Size:</label>
+          <select class="form-control" id="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="crust">Choose your preferred Crust:</label>
+          <select class="form-control" id="crust">
+            <option value="crispy">Crispy @ Ksh. 100</option>
+            <option value="stuffed">Stuffed @ Ksh. 150</option>
+            <option value="nogluten">Gluten free @ Ksh. 200</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="extratoppings"></label>Choose extra Toppings</label>
+          <select class="form-control" id="toppings">
+            <option value="mushroom">Mushroom @ Ksh. 100</option>
+            <option value="sweetcorn">Sweet Corn @ Ksh. 50</option>
+            <option value="cheese">Cheese @ Ksh. 150 </option>
+            <option value="olives">Olives @ Ksh. 100</option>
+            <option value="bacon">Bacon @ Ksh. 200</option>
+            <option value="Peperoni">Peperoni @ Ksh. 150</option>
+            <option value="pineapple">Pineapple @ Ksh. 50</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="quantity">Select number of pizzas</label>
+          <input type="number" class="form-control" id="number" min="1" placeholder="Select number of pizzas">
+        </div>
+      </form>
+      <button type="submit" class="btn btn-dark" id= "confirm">Confirm Order</button>
+      <button type="submit" class="btn btn-dark" id= "addflavor">Select another flavor</button>
     </div>
 
+    <!-- contact us section  -->
+    <div class= "contact-us text-center" id="contact-us">
+      <h3>CONTACT US</h3>
+      <p>Tel: 0724565746</p>
+      <a href="https://www.facebook.com/" target="_blank"><img src="./images/facebook.png" class="socials" alt=""></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="./images/instagram.png" class="socials" alt=""></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="./images/twitter.jpeg" class="socials" alt=""></a>
+    </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src= "js/scrpts.js"></script>
