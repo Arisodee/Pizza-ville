@@ -92,11 +92,16 @@ body {
 .saycheese img {
     width: 43%;
     float: right;
-    height: 416px;
+    height: 329px;
     margin-top: 104px;
 }
 
 #navbar a:hover {
     background-color:black;
     color: yellow;
-  }
+}
+
+.socials:hover {
+    width: 70px;
+    height: 70px;
+}
