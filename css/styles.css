@@ -1,11 +1,78 @@
-*{
-    color: yellow;
-    font-family: cursive;
-}
-body{
-    background-color: black;
-    color: yellow;
-}
-#navbar{
+body {
+    background-image: url(../images/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Yu Gothic UI Semibold;
+    color: rgb(245, 245, 234);
+    font-size: 24px;
+  }
+
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid yellow;
+    border-top: 2px solid yellow;
+  }
+  
+  #navbar a {
     float: right;
-}
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    font-family: Yu Gothic UI Semibold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .aboutus {
+      width: 40%;
+      margin-top: 30px;
+      text-align: justify;
+
+  }
+
+  #welcome , h3 {
+      text-decoration: underline;
+      color: yellow;
+  }
+
+  img {
+      width: 100%;
+  }
+
+  h1, h4 {
+      color: yellow;
+      font-weight: bold;
+      font-style: italic;
+      font-family: cursive;
+  }
+
+  .top-left {
+    position: relative;
+    top: 8px;
+    left: 16px;
+  }
+
+  #favorites {
+      margin-top: 70px;
+  }
+
+  .favorite-image {
+      height: 230px;
+  }
+
+  .fav-content {
+      color: yellow;
+      text-align: center;
+  }
+  .row {
+    margin-top: 30px;
+  }
+
+  #order {
+      margin-top: 30px;
+      text-align: center;
+  }
