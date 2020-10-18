@@ -7,29 +7,51 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
 </head> 
-
-</head>
 <body>
   <div class= "container">
-    <div id= "navbar"> 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-          </div>
+    <h1>Pizza Ville</h1>
+    <h4>Say Cheese!!</h4>
+
+		<div id="navbar">
+      <a href="#contact-us">CONTACT US</a>
+      <a href="#order">ORDER</a>
+      <a href="#favorites">FAVORITES</a>
+      <a href="index.html">HOME</a>
+		</div>
+    
+    <div class= "aboutus">
+      <p><span id = "welcome">Welcome to Pizza Ville! </span> <br>
+        Where we take pride in making pizzas that will have you craving for more. It's hot, it's loaded with cheese and the crust is to-die-for!
+        We have perfected our recipes over the years to come up with the best pizzas you'll ever eat. Try us today! 
+      </p>
+    </div>
+
+    <img src="images/pizzeria.jpeg" alt="">
+    
+    <div id="favorites">
+      <h3>OUR FAVORITES</h3>
+      <div class="row">
+        <div class= "col-lg-4 col-md-4 col-sm-12 favorites">
+            <img src="images/chicken-mushroom.jpeg" class="favorite-image">
+            <div class="fav-content">Chicken-mushroom</div>
         </div>
-      </nav>
-    </div>  
-    <h2>Pizza Ville</h2>
-    <h6>Say Cheese!!</h6>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid sit alias reiciendis enim esse aliquam beatae ullam voluptas minus, cum quam consequatur voluptate ducimus vel asperiores maiores officiis fuga aut?</p>
-    <h3>Get your favorite pizza in 30 minutes</h3>
+        <div class= "col-lg-4 col-md-4 col-sm-12 favorites">
+          <img src="images/vegetarian.jpeg" class="favorite-image">
+          <div class="fav-content">Vegetarian</div>
+        </div>
+        <div class= "col-lg-4 col-md-4 col-sm-12 favorites">
+          <img src="images/stuffed-pizza.jpeg" class="favorite-image">
+          <div class="fav-content">Stuffed Pizza</div>
+        </div>        
+      </div>
+    </div>
+
+    <div id="order">
+      <h4>Place your order below</h4>
+      <p>Get your favorite pizza in 30 minutes!</p>
+
+    </div>
+
   </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src= "js/scrpts.js"></script>
