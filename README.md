@@ -4,7 +4,7 @@ This is a website that allows users to order pizza online. They can select their
 Ariso Okanga
 
 ## Project Image
-![Pizza-ville](/images/project-image.png)
+![Pizza-ville](/images/project_image.png)
 ## Setup Instructions
 - run `git clone https://github.com/Arisodee/Pizza-ville`
 - `cd Pizza-ville`
