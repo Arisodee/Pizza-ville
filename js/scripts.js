@@ -12,23 +12,18 @@
     return parseInt(pizzaTopping);
   }
   function number() {
-    var pizzaNumber = document.getElementById("number").value;
+    let pizzaNumber = document.getElementById("number").value;
     return parseInt(pizzaNumber);
   }
-  
-  function pizza(size, crust, toppings, number) {
-    this.size = size;
-    this.crust = crust;
-    this.toppings = toppings;
-    this.number = number;
+
+  function amountToPay (){
+    let totalAmount = (size() + crust() + toppings()) * number();
+    return parseInt(totalAmount);
   }
-
-  var inputtedValue = new pizza(size(), crust(), topping(), number());
-
-  var amountToPay = (size() + crust()) * number();
-
   function calculateCost(){
-  alert("You have Ordered " + number("")  +  " pizza(s)."  +  ""  +  " Your total cost is kshs "  +  (amountToPay));
+  alert("You have Ordered " + number("")  +  " pizza(s)."  +  ""  +  " Your total cost is kshs "  +  ("totalAmount"));
   prompt("If you would like to have your pizza delivered at a cost of Ksh 100, please enter your location")
   alert("Your pizza will be ready in 30 minutes. " + " Thank you for ordering from us")
 }
+  $("form").reset();
+  
