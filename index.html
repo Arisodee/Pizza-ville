@@ -53,8 +53,8 @@
           <h3>PLACE YOUR ORDER</h3>
           <form>
             <div class="form-group">
-              <label for="availableflavors"></label>Please select the flavour:</label>
-              <select class="form-control" id="availableflavors">
+              <label for="availableFlavors"></label>Please select the flavour:</label>
+              <select class="form-control" id="availableFlavors">
                 <option value="chickenmushroom">Chicken Mushroom</option>
                 <option value="vegetarian">Vegetarian</option>
                 <option value="periperi">Peri-Peri Chicken</option>
@@ -67,9 +67,9 @@
             <div class="form-group">
               <label for="size"></label>Select Size:</label>
               <select class="form-control" id="size">
-                <option value="small">Small</option>
-                <option value="medium">Medium</option>
-                <option value="large">Large</option>
+                <option value="small">Small @ Ksh. 500</option>
+                <option value="medium">Medium @ Ksh. 800</option>
+                <option value="large">Large @ Ksh. 1200</option>
               </select>
             </div>
             <div class="form-group">
@@ -101,12 +101,16 @@
             <label for="pineapple"> Pineapple @ Ksh. 100</label><br>
           </form>
           <button type="submit" class="btn btn-dark" id= "confirm">Confirm Order</button>
-          <button type="submit" class="btn btn-dark" id= "addflavor">Select another flavor</button>
+          <!-- <button type="submit" class="btn btn-dark" id= "addflavor">Select another flavor</button> -->
         </div>
       </div>
       <div class="col-md-6">
         <div class="order-summary" id="order-summary">
           <h3>ORDER SUMMARY</h3>
+          <div id="order-details">
+            <ul>Here's your order summary:</ul>
+                <p>Thank you for ordering!</p>
+          </div>
         </div>
       </div>
     </div>
