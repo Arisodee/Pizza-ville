@@ -25,11 +25,10 @@
 
   var inputtedValue = new pizza(size(), crust(), topping(), number());
 
-  var amountToPay =
-    (inputtedValue.Size + inputtedValue.crust + inputtedValue.topping) * inputtedValue.number;
+  var amountToPay = (size() + crust()) * number();
 
   function calculateCost(){
-  alert("You have Ordered " + number("")  +  " pizza."  +  ""  +  " Your total cost is kshs "  +  (amountToPay);
-  prompt("enter your location for delivery at Ksh 200")
-  alert("Expect your delivery within 30 minutes" + " Thank you for ordering from us")
+  alert("You have Ordered " + number("")  +  " pizza(s)."  +  ""  +  " Your total cost is kshs "  +  (amountToPay));
+  prompt("If you would like to have your pizza delivered at a cost of Ksh 100, please enter your location")
+  alert("Your pizza will be ready in 30 minutes. " + " Thank you for ordering from us")
 }
