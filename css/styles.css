@@ -1,5 +1,5 @@
 body {
-    background-image: url(../images/background.jpeg);
+    background-image: url(../images/blackbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -28,9 +28,9 @@ body {
   }
 
   .aboutus {
-      width: 40%;
+      width: 100%;
       margin-top: 30px;
-      text-align: justify;
+      text-align: center;
 
   }
 
@@ -46,7 +46,6 @@ body {
   h1, h4 {
       color: yellow;
       font-weight: bold;
-      font-style: italic;
       font-family: cursive;
   }
 
@@ -110,6 +109,6 @@ body {
     margin-top: 30px;
     text-align: right;
     width: 100%;
-    color:yellow;
+    color:whitesmoke;
     font-weight: bold;
 }

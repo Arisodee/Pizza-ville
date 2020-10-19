@@ -48,7 +48,7 @@
 
 <!-- order section -->
     <div class= "row">
-      <div class= "col-md-6">
+      <div class= "col-md-12">
         <div id="order">
           <h3>PLACE YOUR ORDER</h3>
           <form>
@@ -87,30 +87,22 @@
           </form>
           <p>Choose extra toppings</p>
           <form action="/action_page.php">
-            <input type="checkbox" id="mushroom"  value="mushroom">
-            <label for="mushroom"> Mushrooms @ Ksh. 100</label><br>
-            <input type="checkbox" id="cheese"  value="cheese">
-            <label for="cheese"> Cheese @ Ksh. 150</label><br>
-            <input type="checkbox" id="olives"  value="olives">
-            <label for="olives"> Olives @ Ksh. 100</label><br>
-            <input type="checkbox" id="bacon"  value="bacon">
-            <label for="bacon"> Bacon @ Ksh. 150</label><br>
-            <input type="checkbox" id="peperoni"  value="peperoni">
-            <label for="peperoni"> Peperoni @ Ksh. 150</label><br>
-            <input type="checkbox" id="pineapple"  value="pineapple">
-            <label for="pineapple"> Pineapple @ Ksh. 100</label><br>
+            <div id= "toppings">
+              <input type="checkbox" id="mushroom"  value="mushroom">
+              <label for="mushroom"> Mushrooms @ Ksh. 100</label><br>
+              <input type="checkbox" id="cheese"  value="cheese">
+              <label for="cheese"> Cheese @ Ksh. 150</label><br>
+              <input type="checkbox" id="olives"  value="olives">
+              <label for="olives"> Olives @ Ksh. 100</label><br>
+              <input type="checkbox" id="bacon"  value="bacon">
+              <label for="bacon"> Bacon @ Ksh. 150</label><br>
+              <input type="checkbox" id="peperoni"  value="peperoni">
+              <label for="peperoni"> Peperoni @ Ksh. 150</label><br>
+              <input type="checkbox" id="pineapple"  value="pineapple">
+              <label for="pineapple"> Pineapple @ Ksh. 100</label><br>
+            </div>
           </form>
-          <button type="submit" class="btn btn-dark" id= "confirm">Confirm Order</button>
-          <!-- <button type="submit" class="btn btn-dark" id= "addflavor">Select another flavor</button> -->
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="order-summary" id="order-summary">
-          <h3>ORDER SUMMARY</h3>
-          <div id="order-details">
-            <ul>Here's your order summary:</ul>
-                <p>Thank you for ordering!</p>
-          </div>
+          <button type="submit" class="btn btn-dark" id= "confirm" onclick="calculateCost()">Confirm Order</button>
         </div>
       </div>
     </div>
@@ -127,6 +119,6 @@
     </div>
   </div>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src= "js/scrpts.js"></script>
+    <script src= "./js/scripts.js"></script>
 </body>
 </html>
