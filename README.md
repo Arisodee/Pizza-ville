@@ -10,7 +10,7 @@ Ariso Okanga
 - `cd Pizza-ville`
 - serve it on the browser
 ## GitHub live link
-
+https://arisodee.github.io/Pizza-ville/
 ## Technologies Used
 * HTML
 * CSS
