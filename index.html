@@ -55,6 +55,7 @@
             <div class="form-group">
               <label for="availableFlavors"></label>Please select the flavour:</label>
               <select class="form-control" id="availableFlavors">
+                <option value="0">choose an option</option>
                 <option value="chickenmushroom">Chicken Mushroom</option>
                 <option value="vegetarian">Vegetarian</option>
                 <option value="periperi">Peri-Peri Chicken</option>
@@ -67,6 +68,7 @@
             <div class="form-group">
               <label for="size"></label>Select Size:</label>
               <select class="form-control" id="size">
+                <option value="0">choose an option</option>
                 <option value="500">Small @ Ksh. 500</option>
                 <option value="800">Medium @ Ksh. 800</option>
                 <option value="1200">Large @ Ksh. 1200</option>
@@ -75,6 +77,7 @@
             <div class="form-group">
               <label for="crust">Choose your preferred Crust:</label>
               <select class="form-control" id="crust">
+                <option value="0">choose an option</option>
                 <option value="100">Crispy @ Ksh. 100</option>
                 <option value="150">Stuffed @ Ksh. 150</option>
                 <option value="200">Gluten free @ Ksh. 200</option>
@@ -102,7 +105,20 @@
               <label for="pineapple"> Pineapple @ Ksh. 100</label><br>
             </div>
           </form>
-          <button type="submit" class="btn btn-dark" id= "confirm" onclick="calculateCost()">Confirm Order</button>
+          <button type="submit" class="btn btn-dark" id= "confirm" onclick="calculateCost()">CONFIRM ORDER</button>
+          <div class="text center checkout">
+            <button type="submit" class="btn btn-dark" id= "addpizza" onclick="addPizza()">ADD PIZZA</button>
+            <button type="submit" class="btn btn-dark" id= "checkout" onclick="confirmOrder()">CHECKOUT</button>
+          </div>
+          <div class="cart">
+            <div class="container">
+              <div class="cart-title">
+                <h3>Your Cart has:</h3>
+              </div>
+              <div class="cart-items" id="cartItems">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
